@@ -6995,6 +6995,18 @@ section.vantagens {
   transform: scale(1.2) rotate(10deg);
 }
 
+@media (max-width: 768px) {
+  .img-itens img:hover {
+    transform: scale(1.0) rotate(0deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .pag9 {
+      background-attachment: scroll;
+  }
+}
+ 
 
 .vantagens .itens-container .txt-itens h3 {
   font-size: 3em;
